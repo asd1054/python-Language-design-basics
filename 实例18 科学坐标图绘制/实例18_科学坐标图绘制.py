@@ -10,19 +10,22 @@ matplotlib.rcParams['font.sans-serif']=['SimHei']
 
 #AttributeError: Unknown property linestytle
 def Draw(pcolor,nt_point,nt_text,nt_size):
-    plt.plot(x,y,'k',label="$exp_decay$",color=pcolor,linewidth = 3,linestytle='-')
+    plt.plot(x,y,'k',label="$exp_decay$",
+             color=pcolor,linewidth = 3,linestyle="-")
     plt.plot(x,z,'b--',label = "$cos(x^2)$",linewidth = 1)
     plt.xlabel('时间（s）')
     plt.ylabel("幅度（mV）")
     plt.title("阻尼衰减曲线绘制")
-    plt.annotate('$\cos(2 \pi t) \exp(-t)$',xy=nt_point,xytext=nt_nt_text,fontsize = nt_size,arrowprops = dict(arrowstytle = '->',connectionstytle = "arc3,rad=.1"))
+    plt.annotate('$\cos(2 \pi t) \exp(-t)$',
+                 xy=nt_point,xytext=nt_text,fontsize = nt_size,arrowprops = dict(arrowstyle='->',connectionstyle="arc3,rad=.1"))
 
 def Shadow(a,b):
     ix =(x>a)&(x<b)
 
     plt.fill_between(x,y,0,where=ix,facecolor='grey',alpha = 0.25)
     
-    plt.text(0.5*(a+b),0.2,r'$\int_a^b f(x)\mathrm{d}x$',horizontalalignment= 'center')
+    plt.text(0.5*(a+b),0.2,r'$\int_a^b f(x)\mathrm{d}x$',
+             horizontalalignment= 'center')
 
 def XY_Axis(x_start,x_end,y_start,y_end):
     plt.xlim(x_start,x_end)
