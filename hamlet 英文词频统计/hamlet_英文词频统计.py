@@ -5,7 +5,7 @@ excludes = {"the","and","of","you",'i','a','i','is','my','in','to','it','his','w
 def getText():
     txt = open("hamlet.txt",'r').read()
     txt = txt.lower()
-    for ch in '!"#$%()*+,-./:;<=>?@[]\\^_`{|}~':
+    for ch in '!"#$%()*+,-.,/:;<=>?@[]\\^_`{|}~':
         txt.replace(ch,' ')
     return txt
 
