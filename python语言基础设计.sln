@@ -215,6 +215,12 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "同符号数学运算", "�
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "天天向上的力量 III", "天天向上的力量 III\天天向上的力量 III.pyproj", "{8451DFB8-8D2D-4E07-8B56-80B17A5AB5C4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "字符串类型", "字符串类型", "{4AB956E4-00AD-412A-952F-B5EB89766F7B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "字符串垂直输出", "字符串垂直输出\字符串垂直输出.pyproj", "{22B9A35F-5C6E-4D52-84B6-FC1EA7DA2AAF}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "恺撒密码 B", "恺撒密码 B\恺撒密码 B.pyproj", "{4F8BCA1F-A655-4F38-8784-C70F9CFB34F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -385,6 +391,10 @@ Global
 		{6C1CCD69-B6CF-41F2-A663-A4B72B995594}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8451DFB8-8D2D-4E07-8B56-80B17A5AB5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8451DFB8-8D2D-4E07-8B56-80B17A5AB5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B9A35F-5C6E-4D52-84B6-FC1EA7DA2AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B9A35F-5C6E-4D52-84B6-FC1EA7DA2AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8BCA1F-A655-4F38-8784-C70F9CFB34F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8BCA1F-A655-4F38-8784-C70F9CFB34F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -470,6 +480,8 @@ Global
 		{95216DF8-2071-4B59-8755-D447E2CF8F05} = {9A842B25-B61B-4172-A0F1-9C06B4978EE8}
 		{6C1CCD69-B6CF-41F2-A663-A4B72B995594} = {7547AFBD-1C4F-44A8-8FE9-158D72BD0B6E}
 		{8451DFB8-8D2D-4E07-8B56-80B17A5AB5C4} = {7547AFBD-1C4F-44A8-8FE9-158D72BD0B6E}
+		{22B9A35F-5C6E-4D52-84B6-FC1EA7DA2AAF} = {4AB956E4-00AD-412A-952F-B5EB89766F7B}
+		{4F8BCA1F-A655-4F38-8784-C70F9CFB34F2} = {7547AFBD-1C4F-44A8-8FE9-158D72BD0B6E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71B735D9-ECE6-4E65-B778-7165115AA74D}
