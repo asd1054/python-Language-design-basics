@@ -221,6 +221,12 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "字符串垂直输出", "�
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "恺撒密码 B", "恺撒密码 B\恺撒密码 B.pyproj", "{4F8BCA1F-A655-4F38-8784-C70F9CFB34F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "分支结构程序设计", "分支结构程序设计", "{8BBA8971-F801-4D8B-B044-1AE050268140}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "个人所得税计算", "个人所得税计算\个人所得税计算.pyproj", "{3D7CDD68-1B6B-4868-8F78-5968FCBEE915}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "货币转换 C", "货币转换 C\货币转换 C.pyproj", "{49C593FB-5040-4D5E-BC9C-E3A92C8E75C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -395,6 +401,10 @@ Global
 		{22B9A35F-5C6E-4D52-84B6-FC1EA7DA2AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F8BCA1F-A655-4F38-8784-C70F9CFB34F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F8BCA1F-A655-4F38-8784-C70F9CFB34F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7CDD68-1B6B-4868-8F78-5968FCBEE915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7CDD68-1B6B-4868-8F78-5968FCBEE915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C593FB-5040-4D5E-BC9C-E3A92C8E75C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C593FB-5040-4D5E-BC9C-E3A92C8E75C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -482,6 +492,8 @@ Global
 		{8451DFB8-8D2D-4E07-8B56-80B17A5AB5C4} = {7547AFBD-1C4F-44A8-8FE9-158D72BD0B6E}
 		{22B9A35F-5C6E-4D52-84B6-FC1EA7DA2AAF} = {4AB956E4-00AD-412A-952F-B5EB89766F7B}
 		{4F8BCA1F-A655-4F38-8784-C70F9CFB34F2} = {7547AFBD-1C4F-44A8-8FE9-158D72BD0B6E}
+		{3D7CDD68-1B6B-4868-8F78-5968FCBEE915} = {8BBA8971-F801-4D8B-B044-1AE050268140}
+		{49C593FB-5040-4D5E-BC9C-E3A92C8E75C0} = {8BBA8971-F801-4D8B-B044-1AE050268140}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71B735D9-ECE6-4E65-B778-7165115AA74D}
