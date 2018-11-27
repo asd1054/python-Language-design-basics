@@ -69,46 +69,41 @@
 
 def work(num):
     fare = 3500
-
-    if num<3500:
+    result = num - fare 
+    if result <0:
+        return 0
+    
+    elif result<1500:
+        result *=0.03
         return 0
     #elif num ==3500:
     #    return 0
-    elif num<4500:
-        result =num - fare
+    elif result<4500:
+        
         result *=0.1
         return result
-    elif num<9000:
-        result =num - fare
+    elif result<9000:
+        
         result *=0.2
         return result
-    elif num<35000:
-        result =num - fare
+    elif result<35000:
+        
         result *=0.25
         return result
-    elif num<55000:
-        result =num - fare
+    elif result<55000:
+        
         result *=0.3
         return result
-    elif num<80000:
-        result =num - fare
+    elif result<80000:
+        
         result *=0.35
         return result
     else:
-        result =num - fare
+       
         result *=0.45
         return result
 a =int(input())
-b = work(a)
-if b==0:
-    b=0
-c = b -int(b)
-if c is not 0: 
-    if c>=0.5:
-        b = int(b)+1
-    else:
-        b = int(b)
+b = int(work(a))
 
-#b = int(b)
 print(b)
 
