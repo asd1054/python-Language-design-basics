@@ -18,6 +18,7 @@ for word in words :
         del counts[word]
 items = list(counts.items())
 items.sort(key = lambda x:x[1],reverse = True)
+print("序号\t{0:15}{1:<5}".format('单词','出现次数'))
 for i in range (100):
     word ,count = items[i]
-    print("{0:15}{1:>5}".format(word,count))
+    print("{2:3}\t{0:15}{1:>8}".format(word,count,i+1))
