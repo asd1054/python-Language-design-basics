@@ -75,7 +75,7 @@ def work(num):
     
     elif result<1500:
         result *=0.03
-        return 0
+        return result
     #elif num ==3500:
     #    return 0
     elif result<4500:
