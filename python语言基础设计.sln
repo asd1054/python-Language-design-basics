@@ -227,6 +227,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "个人所得税计算", "�
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "货币转换 C", "货币转换 C\货币转换 C.pyproj", "{49C593FB-5040-4D5E-BC9C-E3A92C8E75C0}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "实例14.1 csv2json", "实例14.1 csv2json\实例14.1 csv2json.pyproj", "{253177AA-5321-4B92-AC53-D4ECE98CA49E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "14.2 json2csv", "14.2 json2csv\14.2 json2csv.pyproj", "{9FF0802C-640F-4576-ADDA-4ABE0185E0FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -405,6 +409,10 @@ Global
 		{3D7CDD68-1B6B-4868-8F78-5968FCBEE915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49C593FB-5040-4D5E-BC9C-E3A92C8E75C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{49C593FB-5040-4D5E-BC9C-E3A92C8E75C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253177AA-5321-4B92-AC53-D4ECE98CA49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253177AA-5321-4B92-AC53-D4ECE98CA49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF0802C-640F-4576-ADDA-4ABE0185E0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF0802C-640F-4576-ADDA-4ABE0185E0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -494,6 +502,8 @@ Global
 		{4F8BCA1F-A655-4F38-8784-C70F9CFB34F2} = {7547AFBD-1C4F-44A8-8FE9-158D72BD0B6E}
 		{3D7CDD68-1B6B-4868-8F78-5968FCBEE915} = {8BBA8971-F801-4D8B-B044-1AE050268140}
 		{49C593FB-5040-4D5E-BC9C-E3A92C8E75C0} = {8BBA8971-F801-4D8B-B044-1AE050268140}
+		{253177AA-5321-4B92-AC53-D4ECE98CA49E} = {03BB36ED-C743-4AC4-978D-2C3837123035}
+		{9FF0802C-640F-4576-ADDA-4ABE0185E0FB} = {03BB36ED-C743-4AC4-978D-2C3837123035}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71B735D9-ECE6-4E65-B778-7165115AA74D}
