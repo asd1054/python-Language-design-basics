@@ -231,6 +231,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "实例14.1 csv2json", "实�
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "14.2 json2csv", "14.2 json2csv\14.2 json2csv.pyproj", "{9FF0802C-640F-4576-ADDA-4ABE0185E0FB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "循环结构", "循环结构", "{619EB47D-1FFB-4649-9BE1-C8E3B4EA05AE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "校门外的树 程序设计题", "校门外的树 程序设计题\校门外的树 程序设计题.pyproj", "{72E0DC77-ECF7-4DA1-A700-2672AD85D295}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -413,6 +417,8 @@ Global
 		{253177AA-5321-4B92-AC53-D4ECE98CA49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FF0802C-640F-4576-ADDA-4ABE0185E0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9FF0802C-640F-4576-ADDA-4ABE0185E0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E0DC77-ECF7-4DA1-A700-2672AD85D295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E0DC77-ECF7-4DA1-A700-2672AD85D295}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -504,6 +510,7 @@ Global
 		{49C593FB-5040-4D5E-BC9C-E3A92C8E75C0} = {8BBA8971-F801-4D8B-B044-1AE050268140}
 		{253177AA-5321-4B92-AC53-D4ECE98CA49E} = {03BB36ED-C743-4AC4-978D-2C3837123035}
 		{9FF0802C-640F-4576-ADDA-4ABE0185E0FB} = {03BB36ED-C743-4AC4-978D-2C3837123035}
+		{72E0DC77-ECF7-4DA1-A700-2672AD85D295} = {619EB47D-1FFB-4649-9BE1-C8E3B4EA05AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71B735D9-ECE6-4E65-B778-7165115AA74D}
