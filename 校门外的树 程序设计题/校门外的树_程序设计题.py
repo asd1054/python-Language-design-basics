@@ -59,31 +59,31 @@
 #M -= sub
 #print(M)
 
-#不再更新
-#def graph(end,start=0):
-#    a = []
-#    for i in range(end):
-#        b = [i,1]
-#        a.append(b)
-#    return a
-#def mark(start,end,graph):
-#    for i in range(start,end):
-#        graph[i][1]=0
+#已做出，逐步循环遍历
+def graph(end,start=0):
+    a = []
+    for i in range(end):
+        b = [i,1]
+        a.append(b)
+    return a
+def mark(start,end,graph):
+    for i in range(start,end):
+        graph[i][1]=0
 
-#num = input()
-#tmp = list(map(lambda x:eval(x),num.split()))
-#L = tmp[0]-1
-#M = tmp[1]
-#sign =[]
-#for i in range(M):
-#    tmpTree = input()
-#    tmp1 = list(map(lambda x:eval(x),tmpTree.split()))
-#    sign.append(tmp1)
-#tree = graph(L)
-#for i in len(tree):
-#    mark(sign[i][0],sign[i][1],tree)
-#l = len(list(filter(lambda x:x[1]==0)))
-#print(l)
+num = input()
+tmp = list(map(lambda x:eval(x),num.split()))
+L = tmp[0]-1
+M = tmp[1]
+sign =[]
+for i in range(M):
+    tmpTree = input()
+    tmp1 = list(map(lambda x:eval(x),tmpTree.split()))
+    sign.append(tmp1)
+tree = graph(L)
+for i in range(M):
+    mark(sign[i][0],sign[i][1],tree)
+l = L - len(list(filter(lambda x:x[1]==0,tree)))
+print(l)
 
 #暴力拆解
 num = input()
